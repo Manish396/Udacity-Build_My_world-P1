@@ -35,7 +35,7 @@
               </torsional>
             </friction>
             <contact>
-              <ode/>
+              
             </contact>
             <bounce/>
           </surface>
