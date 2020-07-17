@@ -67,12 +67,11 @@ Directory Structure
       cmake .. && make
 * Export your plugin folder in the terminal so your world file can find it:
 
-      export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-Term1-P1-Build-My-World/build
+      export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/Udacity-Build-My-World/build
 * Launch the world file in Gazebo to load both the world and plugin
 
-      cd /home/workspace/github/RoboND-Term1-P1-Build-My-World/world/
-      gazebo myoffice.world
-### Tip
-1. It's recommended to update and upgrade your environment before running the code.
+      cd /home/workspace/github/Udacity-Build-My-World/world/
+      gazebo ManixWorld
+* The world should open in Gazebo, and the terminal should display the message:
 
-       sudo apt-get update && sudo apt-get upgrade -y
+      Welcome to ManixWorld
